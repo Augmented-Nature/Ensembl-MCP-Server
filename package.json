@@ -1,0 +1,52 @@
+{
+  "name": "ensembl-server",
+  "version": "1.0.0",
+  "description": "Production-ready MCP server for Ensembl genomic data and comparative genomics - Access genes, sequences, variants, and regulatory features",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "start": "node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ensembl",
+    "genomics",
+    "bioinformatics",
+    "genes",
+    "transcripts",
+    "variants",
+    "comparative-genomics",
+    "sequences",
+    "regulatory-features",
+    "phylogenetics",
+    "orthologs",
+    "genome-annotation",
+    "biomedical",
+    "genetics",
+    "molecular-biology"
+  ],
+  "author": "MCP Developer",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "bin": {
+    "ensembl-server": "./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ensembl/ensembl-mcp-server"
+  },
+  "homepage": "https://ensembl.org",
+  "bugs": {
+    "url": "https://github.com/ensembl/ensembl-mcp-server/issues"
+  }
+}
