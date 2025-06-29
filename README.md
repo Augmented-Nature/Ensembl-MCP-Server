@@ -288,3 +288,14 @@ This server integrates well with other bioinformatics MCP servers:
 ## About Augmented Nature
 
 This Ensembl MCP Server is developed by [Augmented Nature](https://augmentednature.ai), a company focused on building AI-powered tools for scientific research and discovery.
+
+
+## Citation
+If you use this project in your research or publications, please cite it as follows:
+
+```bibtex @misc{ensemblmcp2025, 
+author = {Moudather Chelbi},
+title = {Ensembl MCP Server},
+year = {2025},
+howpublished = {https://github.com/Augmented-Nature/Ensembl-MCP-Server},
+note = {Accessed: 2025-06-29}
